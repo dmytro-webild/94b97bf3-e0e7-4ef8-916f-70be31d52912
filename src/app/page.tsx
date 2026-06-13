@@ -3,10 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
-import ContactCenter from '@/components/sections/contact/ContactCenter';
+import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
-import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
+import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -32,29 +32,17 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "#home",
-        },
+          name: "Home",          id: "#home"},
         {
-          name: "About",
-          id: "#about",
-        },
+          name: "About",          id: "#about"},
         {
-          name: "Content",
-          id: "#content",
-        },
+          name: "Content",          id: "#content"},
         {
-          name: "Community",
-          id: "#community",
-        },
+          name: "Community",          id: "#community"},
         {
-          name: "FAQ",
-          id: "#faq",
-        },
+          name: "FAQ",          id: "#faq"},
         {
-          name: "Connect",
-          id: "#connect",
-        },
+          name: "Connect",          id: "#connect"},
       ]}
       brandName="Creator Hub"
     />
@@ -66,39 +54,23 @@ export default function LandingPage() {
       description="Your daily dose of inspiration and entertainment. Explore engaging videos, tutorials, and unique stories from our vibrant community."
       buttons={[
         {
-          text: "Watch Latest Video",
-          href: "https://www.youtube.com/@YourChannelHere",
-        },
+          text: "Watch Latest Video",          href: "https://www.youtube.com/@ytbkubik"},
         {
-          text: "Subscribe Now",
-          href: "https://www.youtube.com/@YourChannelHere",
-        },
+          text: "Subscribe Now",          href: "https://www.youtube.com/@ytbkubik"},
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-gaming-studio-with-rgb-led-lights-powerful-personal-computer-streaming-online-competition-display-with-stream-chat-prepared-virtual-tournament-living-room-with-nobody_482257-12597.jpg",
-          imageAlt: "Dynamic video editing interface",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/empty-gaming-studio-with-rgb-led-lights-powerful-personal-computer-streaming-online-competition-display-with-stream-chat-prepared-virtual-tournament-living-room-with-nobody_482257-12597.jpg",          imageAlt: "Dynamic video editing interface"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/adult-male-doing-exercises-personal-blog_23-2148581784.jpg",
-          imageAlt: "Creator recording a video in a studio",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/adult-male-doing-exercises-personal-blog_23-2148581784.jpg",          imageAlt: "Creator recording a video in a studio"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/multiethnic-team-employees-meeting-break-have-fun-discussing-about-business-collaboration-happy-people-laughing-planning-marketing-project-office-handheld-shot_482257-43330.jpg",
-          imageAlt: "A group of content creators collaborating",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/multiethnic-team-employees-meeting-break-have-fun-discussing-about-business-collaboration-happy-people-laughing-planning-marketing-project-office-handheld-shot_482257-43330.jpg",          imageAlt: "A group of content creators collaborating"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/people-using-digital-devices-smart-technology-double-color-exposure-effect_53876-104899.jpg",
-          imageAlt: "Audience watching a captivating video",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/people-using-digital-devices-smart-technology-double-color-exposure-effect_53876-104899.jpg",          imageAlt: "Audience watching a captivating video"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-little-girl-influencer-recording-video-chatting-with-fans_482257-76808.jpg",
-          imageAlt: "Live streaming setup with chat overlay",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-little-girl-influencer-recording-video-chatting-with-fans_482257-76808.jpg",          imageAlt: "Live streaming setup with chat overlay"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-enjoying-lunch-together_23-2148451675.jpg",
-          imageAlt: "Vibrant community celebrating milestones",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-enjoying-lunch-together_23-2148451675.jpg",          imageAlt: "Vibrant community celebrating milestones"},
       ]}
       autoplayDelay={4000}
     />
@@ -121,26 +93,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          tag: "Tutorials",
-          title: "Master New Skills",
-          subtitle: "Step-by-step guides",
-          description: "Unlock your potential with our comprehensive tutorials covering various topics, designed for all skill levels.",
-          imageSrc: "http://img.b2bpic.net/free-photo/student-working-with-computer_1098-360.jpg",
-        },
+          tag: "Tutorials",          title: "Master New Skills",          subtitle: "Step-by-step guides",          description: "Unlock your potential with our comprehensive tutorials covering various topics, designed for all skill levels.",          imageSrc: "http://img.b2bpic.net/free-photo/student-working-with-computer_1098-360.jpg"},
         {
-          tag: "Vlogs",
-          title: "Daily Adventures",
-          subtitle: "Join our journey",
-          description: "Experience life through our lenses with engaging vlogs, bringing you along on exciting adventures and behind-the-scenes moments.",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-taking-photos-boyfriend-nature-with-smartphone_23-2148693661.jpg",
-        },
+          tag: "Vlogs",          title: "Daily Adventures",          subtitle: "Join our journey",          description: "Experience life through our lenses with engaging vlogs, bringing you along on exciting adventures and behind-the-scenes moments.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-taking-photos-boyfriend-nature-with-smartphone_23-2148693661.jpg"},
         {
-          tag: "Reviews",
-          title: "Honest Opinions",
-          subtitle: "In-depth analysis",
-          description: "Get unbiased reviews on the latest products, trends, and services, helping you make informed decisions.",
-          imageSrc: "http://img.b2bpic.net/free-photo/search-net_1098-13325.jpg",
-        },
+          tag: "Reviews",          title: "Honest Opinions",          subtitle: "In-depth analysis",          description: "Get unbiased reviews on the latest products, trends, and services, helping you make informed decisions.",          imageSrc: "http://img.b2bpic.net/free-photo/search-net_1098-13325.jpg"},
       ]}
       title="Explore Our Content"
       description="Dive into a diverse range of videos designed to captivate and inform. From in-depth tutorials to exciting vlogs, there's always something new to discover."
@@ -153,45 +110,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          title: "Inspirational Content",
-          quote: "This channel consistently delivers engaging and insightful content. It's truly a source of inspiration and learning!",
-          name: "Sarah J.",
-          role: "Long-time Subscriber",
-          imageSrc: "http://img.b2bpic.net/free-photo/elegant-corporate-businesswoman_23-2147702113.jpg",
-        },
+          id: "1",          title: "Inspirational Content",          quote: "This channel consistently delivers engaging and insightful content. It's truly a source of inspiration and learning!",          name: "Sarah J.",          role: "Long-time Subscriber",          imageSrc: "http://img.b2bpic.net/free-photo/elegant-corporate-businesswoman_23-2147702113.jpg"},
         {
-          id: "2",
-          title: "Top-Quality Production",
-          quote: "The production quality of these videos is outstanding. Every episode is a treat to watch, and the editing is flawless.",
-          name: "Mark T.",
-          role: "Video Editor",
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-walking-outside-modern-office-building_1139-1079.jpg",
-        },
+          id: "2",          title: "Top-Quality Production",          quote: "The production quality of these videos is outstanding. Every episode is a treat to watch, and the editing is flawless.",          name: "Mark T.",          role: "Video Editor",          imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-walking-outside-modern-office-building_1139-1079.jpg"},
         {
-          id: "3",
-          title: "Always Learning Something New",
-          quote: "I always learn something new and valuable from this channel. The explanations are clear, and the topics are well-researched.",
-          name: "Emily R.",
-          role: "Student",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-excited-person-portrait_23-2151186649.jpg",
-        },
+          id: "3",          title: "Always Learning Something New",          quote: "I always learn something new and valuable from this channel. The explanations are clear, and the topics are well-researched.",          name: "Emily R.",          role: "Student",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-excited-person-portrait_23-2151186649.jpg"},
         {
-          id: "4",
-          title: "Engaging & Authentic",
-          quote: "The creator's authenticity shines through every video. It's refreshing to find a channel that is both entertaining and genuine.",
-          name: "David K.",
-          role: "Content Enthusiast",
-          imageSrc: "http://img.b2bpic.net/free-photo/successful-senior-businessman-standing-window_1262-3120.jpg",
-        },
+          id: "4",          title: "Engaging & Authentic",          quote: "The creator's authenticity shines through every video. It's refreshing to find a channel that is both entertaining and genuine.",          name: "David K.",          role: "Content Enthusiast",          imageSrc: "http://img.b2bpic.net/free-photo/successful-senior-businessman-standing-window_1262-3120.jpg"},
         {
-          id: "5",
-          title: "Fantastic Community",
-          quote: "Beyond the videos, the community around this channel is fantastic. It's a supportive place to share ideas and connect with like-minded people.",
-          name: "Jessica P.",
-          role: "Community Member",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-woman-beautiful-purple-dress-posing-pink-wall_140725-112669.jpg",
-        },
+          id: "5",          title: "Fantastic Community",          quote: "Beyond the videos, the community around this channel is fantastic. It's a supportive place to share ideas and connect with like-minded people.",          name: "Jessica P.",          role: "Community Member",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-woman-beautiful-purple-dress-posing-pink-wall_140725-112669.jpg"},
       ]}
       title="What Our Viewers Say"
       description="Our community is at the heart of everything we do. Hear directly from the people who make our channel a success and share their experiences."
@@ -203,14 +130,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       names={[
-        "YouTube",
-        "Twitch",
-        "Patreon",
-        "Discord",
-        "Google",
-        "Adobe",
-        "Streamlabs",
-      ]}
+        "YouTube",        "Twitch",        "Patreon",        "Discord",        "Google",        "Adobe",        "Streamlabs"]}
       title="Trusted by Platforms"
       description="We collaborate with leading platforms and brands to bring you even more value and unique experiences. Our partnerships enhance the quality and reach of our content."
     />
@@ -222,20 +142,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "How often do you upload new videos?",
-          content: "We strive to upload new videos every Monday and Thursday. Make sure to subscribe and hit the notification bell to stay updated!",
-        },
+          id: "q1",          title: "How often do you upload new videos?",          content: "We strive to upload new videos every Monday and Thursday. Make sure to subscribe and hit the notification bell to stay updated!"},
         {
-          id: "q2",
-          title: "Can I suggest a video topic?",
-          content: "Absolutely! We love hearing from our community. Please leave your suggestions in the comments section of our latest video or reach out via our social media channels.",
-        },
+          id: "q2",          title: "Can I suggest a video topic?",          content: "Absolutely! We love hearing from our community. Please leave your suggestions in the comments section of our latest video or reach out via our social media channels."},
         {
-          id: "q3",
-          title: "How can I support the channel?",
-          content: "The best way to support us is by watching our videos, liking, sharing, commenting, and subscribing. You can also join our Patreon for exclusive content and perks!",
-        },
+          id: "q3",          title: "How can I support the channel?",          content: "The best way to support us is by watching our videos, liking, sharing, commenting, and subscribing. You can also join our Patreon for exclusive content and perks!"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/man-drinking-matcha-tea_23-2150163280.jpg"
       imageAlt="Person asking a question and getting an answer"
@@ -255,68 +166,62 @@ export default function LandingPage() {
       description="Stay up-to-date with our freshest content and behind-the-scenes insights. Never miss a moment from your favorite channel."
       blogs={[
         {
-          id: "b1",
-          category: "Vlog",
-          title: "My Day in the Life as a Full-Time Creator",
-          excerpt: "Join me for a candid look into what a typical day holds, from brainstorming to editing and everything in between.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-beautiful-woman-lifestyle-blogger-talking-about-makeup-camera-recording-vlog_1258-254218.jpg",
-          imageAlt: "Creator's daily life vlog",
-          authorName: "Your Name",
-          authorAvatar: "http://img.b2bpic.net/free-photo/girl-hinting-making-first-move-cute-sassy-african-american-curlyhaired-woman-yellow-sweater-winking-flirty-smiling-encourage-friend-everything-okay-standing-white-background-positive_176420-50613.jpg",
-          date: "July 15, 2024",
-        },
+          id: "b1",          category: "Vlog",          title: "My Day in the Life as a Full-Time Creator",          excerpt: "Join me for a candid look into what a typical day holds, from brainstorming to editing and everything in between.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-beautiful-woman-lifestyle-blogger-talking-about-makeup-camera-recording-vlog_1258-254218.jpg",          imageAlt: "Creator's daily life vlog",          authorName: "Your Name",          authorAvatar: "http://img.b2bpic.net/free-photo/girl-hinting-making-first-move-cute-sassy-african-american-curlyhaired-woman-yellow-sweater-winking-flirty-smiling-encourage-friend-everything-okay-standing-white-background-positive_176420-50613.jpg",          date: "July 15, 2024"},
         {
-          id: "b2",
-          category: "Tutorial",
-          title: "Advanced Editing Techniques for Beginners",
-          excerpt: "Elevate your video editing skills with these pro tips and tricks, perfect for anyone looking to improve their content.",
-          imageSrc: "http://img.b2bpic.net/free-photo/video-editor-using-editing-software-green-screen-monitor-upgrade-footage-shot_482257-82205.jpg",
-          imageAlt: "Video editing tutorial screenshot",
-          authorName: "Your Name",
-          authorAvatar: "http://img.b2bpic.net/free-photo/confident-successful-middle-aged-business-leader_1262-4872.jpg",
-          date: "July 10, 2024",
-        },
+          id: "b2",          category: "Tutorial",          title: "Advanced Editing Techniques for Beginners",          excerpt: "Elevate your video editing skills with these pro tips and tricks, perfect for anyone looking to improve their content.",          imageSrc: "http://img.b2bpic.net/free-photo/video-editor-using-editing-software-green-screen-monitor-upgrade-footage-shot_482257-82205.jpg",          imageAlt: "Video editing tutorial screenshot",          authorName: "Your Name",          authorAvatar: "http://img.b2bpic.net/free-photo/confident-successful-middle-aged-business-leader_1262-4872.jpg",          date: "July 10, 2024"},
         {
-          id: "b3",
-          category: "Review",
-          title: "Is the New Camera Worth It? Full Review!",
-          excerpt: "A comprehensive breakdown of the latest camera gear, its features, pros, cons, and whether it's right for your setup.",
-          imageSrc: "http://img.b2bpic.net/free-photo/working-led-lightning-system-view-from-back-white-movie-set_1268-15944.jpg",
-          imageAlt: "New camera review thumbnail",
-          authorName: "Your Name",
-          authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-cartoon-woman-portrait_23-2151839669.jpg",
-          date: "July 5, 2024",
-        },
+          id: "b3",          category: "Review",          title: "Is the New Camera Worth It? Full Review!",          excerpt: "A comprehensive breakdown of the latest camera gear, its features, pros, cons, and whether it's right for your setup.",          imageSrc: "http://img.b2bpic.net/free-photo/working-led-lightning-system-view-from-back-white-movie-set_1268-15944.jpg",          imageAlt: "New camera review thumbnail",          authorName: "Your Name",          authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-cartoon-woman-portrait_23-2151839669.jpg",          date: "July 5, 2024"},
       ]}
     />
   </div>
 
   <div id="connect" data-section="connect">
-      <ContactCenter
+      <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "radial-gradient",
-      }}
-      tag="Get in Touch"
-      title="Collaborate or Connect"
-      description="Whether you have a business inquiry, collaboration proposal, or just want to say hello, we'd love to hear from you. Send us a message!"
-      inputPlaceholder="Your Email Address"
-      buttonText="Send Message"
-      termsText="By sending a message, you agree to our privacy policy and terms of service."
+        variant: "radial-gradient"}}
+      tag="Connect with Us"
+      title="Join Our Journey"
+      description="Follow us on social media for exclusive content, updates, and behind-the-scenes glimpses. Don't miss out on our latest videos and community events!"
+      buttons={[
+        {
+          text: "Subscribe on YouTube",          href: "https://www.youtube.com/@ytbkubik"},
+        {
+          text: "Follow on Instagram",          href: "#"},
+        {
+          text: "Join Discord",          href: "#"},
+      ]}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoReveal
+      <FooterBaseCard
       logoText="Creator's Vision"
-      leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
-      rightLink={{
-        text: "Terms of Service",
-        href: "#",
-      }}
+      columns={[
+        {
+          title: "Connect",          items: [
+            { label: "YouTube Channel", href: "https://www.youtube.com/@ytbkubik" },
+            { label: "Instagram", href: "#" },
+            { label: "Discord", href: "#" },
+          ],
+        },
+        {
+          title: "Explore",          items: [
+            { label: "Home", href: "#home" },
+            { label: "About", href: "#about" },
+            { label: "Content", href: "#content" },
+            { label: "Community", href: "#community" },
+            { label: "FAQ", href: "#faq" },
+          ],
+        },
+        {
+          title: "Legal",          items: [
+            { label: "Privacy Policy", href: "#" },
+            { label: "Terms of Service", href: "#" },
+          ],
+        },
+      ]}
+      copyrightText="© 2025 Creator Hub"
     />
   </div>
       </ReactLenis>
